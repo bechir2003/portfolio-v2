@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gestion_participant</class>
+ <widget class="QDialog" name="gestion_participant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1934</width>
+    <height>997</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>120</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Downloads/search (1).svg</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>361</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0" colspan="2">
+     <widget class="QPushButton" name="scan_CIN">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #792382;
+    color: #792382;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #ffffff; /* Arrière-plan blanc */
+    background-image: url(&quot;C:/Users/user/Documents/interface à bechir/images/camera.svg&quot;); /* Chemin de l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-position: left center; /* Positionner l'image à gauche du bouton */
+    padding-left: 40px; /* Ajustez ceci selon la taille de votre image */
+}
+
+QPushButton:hover {
+    background-color: #43aff7; /* Arrière-plan bleu au survol */
+    color: #ffff; /* Texte en blanc au survol */
+}
+
+QPushButton:pressed {
+    transform: translateY(1px);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Scanner la carte CIN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>CIN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="CIN">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>CIN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="nom">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nom </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Prénom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="prenom">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>prenom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sexe</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QRadioButton" name="homme">
+      <property name="styleSheet">
+       <string notr="true">QRadioButton {
+    padding: 5px;
+    color: #333;
+}
+
+QRadioButton::indicator {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #43aff7;
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #2ecc71; /* Couleur de fond lorsque sélectionné */
+}
+
+QRadioButton::indicator:hover {
+    border-color: #3498db; /* Couleur de la bordure au survol */
+}
+
+QRadioButton::indicator:checked:hover {
+    background-color: #2ecc71; /* Couleur de fond lorsque sélectionné et au survol */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Homme</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QRadioButton" name="femme">
+      <property name="styleSheet">
+       <string notr="true">QRadioButton {
+    padding: 5px;
+    color: #333;
+}
+
+QRadioButton::indicator {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #43aff7;
+    border-radius: 7px;
+}
+
+QRadioButton::indicator:checked {
+    background-color: #2ecc71; /* Couleur de fond lorsque sélectionné */
+}
+
+QRadioButton::indicator:hover {
+    border-color: #3498db; /* Couleur de la bordure au survol */
+}
+
+QRadioButton::indicator:checked:hover {
+    background-color: #2ecc71; /* Couleur de fond lorsque sélectionné et au survol */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Femme</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Email</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="email">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>email</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_16">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Num Tel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="num_tel">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>numero</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_19">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Adresse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="adresse">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>adresse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Date naissance</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QDateEdit" name="date_naiss">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/* Style de base pour QDateEdit */
+QDateEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style lorsqu'il est activé */
+QDateEdit:focus {
+    border-color: #2ecc71;
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QPushButton" name="ajouter">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #792382;
+    background-color: white; /* Fond blanc */
+    color: #792382; /* Écriture en violet */
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #43aff7;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Ajouter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QPushButton" name="annuler">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #792382;
+    background-color: white; /* Fond blanc */
+    color: #792382; /* Écriture en violet */
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #43aff7;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Annuler</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="telecharger">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>580</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #792382;
+    color: #792382;
+    border-radius: 5px;
+    background-image: url(&quot;images/download.svg&quot;);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px; /* Ajustez ceci selon la taille de votre image */
+    background-color: #ffffff; /* Arrière-plan blanc */
+}
+
+QPushButton:hover {
+    background-color: #43aff7; /* Arrière-plan bleu au survol */
+    color: #ffff; /* Texte en blanc au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>PDF</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="rechercher">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>190</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    padding-left: 30px; /* Ajustez ceci selon la taille de votre image */
+    background-image: url(&quot;images/search.svg&quot;);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+QLineEdit::placeholder {
+    color: #666; /* Couleur du texte de repère */
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Rechercher..</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>290</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #792382; /* Couleur du texte */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #ffffff; /* Arrière-plan blanc */
+    border: none; /* Supprimer la bordure */
+    outline: none; /* Supprimer le contour au focus */
+    background-image: url(&quot;C:/Users/user/Documents/interface à bechir/images/refresh-ccw.svg&quot;); /* Chemin de l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-position: center; /* Centrer l'image */
+}
+
+QPushButton:hover {
+    background-color: #43aff7; /* Arrière-plan bleu au survol */
+    color: #ffff; /* Texte en blanc au survol */
+}
+
+QPushButton:pressed {
+    transform: translateY(1px);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>240</y>
+     <width>1311</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="statistique">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>200</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #792382;
+    color: #792382; /* Changement de couleur du texte en violet */
+    border-radius: 5px;
+    background-image: url(&quot;images/bar-chart.svg&quot;);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px; /* Ajustez ceci selon la taille de votre image */
+    background-color: #fff; /* Changement de couleur de fond en blanc */
+}
+
+QPushButton:hover {
+    background-color: #43aff7; /* Changement de couleur de fond au survol */
+    color: #792382; /* Garder la couleur du texte en violet */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Statistique</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logout">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>890</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #792382;
+    color: white;
+    border-radius: 5px;
+    background-image: url(&quot;images/log-out.svg&quot;);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    font-weight: bold; /* Texte en gras */
+}
+
+QPushButton:hover {
+    background-color: #43aff7;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Deconnexion</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: #800080; /* Couleur du texte violette */
+    font-size: 20px; /* Taille de la police */
+    font-weight: bold; /* Police en gras */
+    background-color: #ffffff; /* Couleur de fond */
+    border: 2px solid #800080; /* Bordure violette */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px; /* Marge intérieure */
+}
+
+QLabel:hover {
+    background-color: #add8e6; /* Couleur de fond au survol (bleu clair) */
+    border-color: #4B0082; /* Couleur de la bordure au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Ajouter un Participant</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rafraichir_ajouter_p">
+   <property name="geometry">
+    <rect>
+     <x>1780</x>
+     <y>250</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #792382; /* Couleur du texte */
+    border-radius: 5px;
+    background-color: #ffffff; /* Arrière-plan blanc */
+    border: none; 
+    background-image: url(&quot;images/refresh-ccw.svg&quot;); 
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-position: center; /* Centrer l'image */
+}
+
+QPushButton:hover {
+    background-color: #43aff7; /* Arrière-plan bleu au survol */
+    color: #ffff; /* Texte en blanc au survol */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>2081</width>
+     <height>1311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;D:/ESPRIT/c++/Projet/ProjetC++/images/back.jpg&quot;);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>0</y>
+     <width>111</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    background-image: url(&quot;D:/ESPRIT/c++/Projet/ProjetC++/images/logo.png&quot;);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Documents/interface à bechir/interface ├á bechir/images/logo.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Menu">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>830</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #792382;
+    background-color: white; /* Fond blanc */
+    color: #792382; /* Écriture en violet */
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #43aff7;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Menu</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>180</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QRadioButton" name="asc">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>97</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#ffffff</string>
+    </property>
+    <property name="text">
+     <string>asc</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="desc">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>97</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#ffffff
+</string>
+    </property>
+    <property name="text">
+     <string>desc</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QComboBox" name="triCombo">
+   <property name="geometry">
+    <rect>
+     <x>1300</x>
+     <y>180</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Style de base du QComboBox */
+QComboBox {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #43aff7; /* Couleur de la bordure en bleu */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #792382; /* Couleur du texte en violet */
+    background-image: url(&quot;C:/Users/user/Documents/interface à bechir/images/chevron-down.svg&quot;);
+    background-repeat: no-repeat;
+    background-position: right center; /* Position de l'image à droite et centrée verticalement */
+    padding-right: 25px; /* Ajustement de la taille pour laisser de l'espace à l'image */
+}
+
+/* Style de la flèche du QComboBox */
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+    background-color: transparent;
+}
+
+/* Style de la flèche au survol */
+QComboBox::drop-down:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol en gris clair */
+}
+
+/* Style du QComboBox au survol */
+QComboBox:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol en gris clair */
+}
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Trier Selon :</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sexe</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Date de naissance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Prenom</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>80</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 22px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Gestion des participants</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo_2">
+   <property name="geometry">
+    <rect>
+     <x>1470</x>
+     <y>880</y>
+     <width>111</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    background-image: url(&quot;D:/ESPRIT/c++/Projet/ProjetC++/images/logo.png&quot;);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Documents/interface à bechir/interface ├á bechir/images/logo.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_2">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>960</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 22px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Gestion des participants</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_3">
+   <property name="geometry">
+    <rect>
+     <x>1660</x>
+     <y>960</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 22px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Gestion des participants</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_4">
+   <property name="geometry">
+    <rect>
+     <x>1670</x>
+     <y>960</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-size: 22px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Gestion des participants</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo_3">
+   <property name="geometry">
+    <rect>
+     <x>1660</x>
+     <y>910</y>
+     <width>111</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+    background-image: url(&quot;D:/ESPRIT/c++/Projet/ProjetC++/images/logo.png&quot;);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../Documents/interface à bechir/interface ├á bechir/images/logo.png</pixmap>
+   </property>
+  </widget>
+  <zorder>Background</zorder>
+  <zorder>label_5</zorder>
+  <zorder>formLayoutWidget_2</zorder>
+  <zorder>telecharger</zorder>
+  <zorder>rechercher</zorder>
+  <zorder>afficher</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>statistique</zorder>
+  <zorder>logout</zorder>
+  <zorder>label_21</zorder>
+  <zorder>rafraichir_ajouter_p</zorder>
+  <zorder>logo</zorder>
+  <zorder>Menu</zorder>
+  <zorder>frame</zorder>
+  <zorder>triCombo</zorder>
+  <zorder>title</zorder>
+  <zorder>logo_2</zorder>
+  <zorder>title_2</zorder>
+  <zorder>title_3</zorder>
+  <zorder>title_4</zorder>
+  <zorder>logo_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

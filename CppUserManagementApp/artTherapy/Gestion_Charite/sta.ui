@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sta</class>
+ <widget class="QDialog" name="sta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1252</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="graph">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>1301</width>
+     <height>761</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>181</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../../423062592_412565247809359_4122753196054595283_n.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="retourner">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>10</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #43aff7;
+    color: #43aff7;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+QPushButton:hover {
+    background-color: #792382;
+    color: #ffff;
+}
+
+QPushButton:pressed {
+    transform: translateY(1px);
+}</string>
+   </property>
+   <property name="text">
+    <string>retourner</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

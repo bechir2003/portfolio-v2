@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="GP">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>10</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #792382; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 24px; /* Marge intérieure */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration du texte */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px; /* Arrondir les coins */
+}
+
+QPushButton:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Gestion personnels</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1341</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(&quot;D:/ESPRIT/c++/Projet/ProjetC++/images/menu.png&quot;);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GC">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>110</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #792382; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 24px; /* Marge intérieure */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration du texte */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px; /* Arrondir les coins */
+}
+
+QPushButton:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Gestion charités</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GE">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>80</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #792382; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 24px; /* Marge intérieure */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration du texte */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px; /* Arrondir les coins */
+}
+
+QPushButton:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Gestion évènements</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GO">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #792382; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 24px; /* Marge intérieure */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration du texte */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px; /* Arrondir les coins */
+}
+
+QPushButton:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Gestion oeuvres</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>100</y>
+     <width>171</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/423062592_412565247809359_4122753196054595283_n.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GPA">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>70</y>
+     <width>201</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #792382; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 24px; /* Marge intérieure */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration du texte */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px; /* Arrondir les coins */
+}
+
+QPushButton:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Gestion participants</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: #800080; /* Couleur du texte violette */
+    font-size: 20px; /* Taille de la police */
+    font-weight: bold; /* Police en gras */
+    background-color: #f0f0f0; /* Couleur de fond */
+    border: 2px solid #800080; /* Bordure violette */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px; /* Marge intérieure */
+}
+
+QLabel:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol (bleu clair) */
+    border-color: #4B0082; /* Couleur de la bordure au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Page d'acceuil</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="GHA">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>140</y>
+     <width>361</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #792382; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 24px; /* Marge intérieure */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration du texte */
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px; /* Arrondir les coins */
+}
+
+QPushButton:hover {
+    background-color: #aa00ff; /* Couleur de fond au survol */
+}</string>
+   </property>
+   <property name="text">
+    <string>Gestion Historiques d'achats / Participation</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>GP</zorder>
+  <zorder>GC</zorder>
+  <zorder>GE</zorder>
+  <zorder>GO</zorder>
+  <zorder>label_2</zorder>
+  <zorder>GPA</zorder>
+  <zorder>label_3</zorder>
+  <zorder>GHA</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

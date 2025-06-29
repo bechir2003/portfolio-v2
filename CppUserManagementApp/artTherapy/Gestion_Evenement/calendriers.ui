@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>calendriers</class>
+ <widget class="QDialog" name="calendriers">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1474</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>651</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* Style global du widget Calendrier */
+QCalendarWidget {
+    background-color: #792382; /* Couleur de fond */
+    border: 2px solid #792382; /* Bordure */
+    color: white; /* Couleur du texte */
+}
+
+/* Style pour les jours de la semaine */
+QCalendarWidget QHeaderView {
+    background-color: #792382; /* Couleur de fond de l'en-tête */
+    color: #792382; /* Couleur du texte de l'en-tête */
+    border: none; /* Supprimer la bordure */
+}
+
+/* Style pour les jours du calendrier */
+QCalendarWidget QAbstractItemView {
+    selection-background-color: #ff69b4; /* Couleur de fond de la sélection */
+    color: #792382; /* Couleur du texte des jours */
+}
+
+/* Style pour les boutons &quot;Précédent&quot; et &quot;Suivant&quot; */
+QCalendarWidget QPushButton {
+    background-color: #43aff7; /* Couleur de fond */
+    border: 1px solid #43aff7; /* Bordure */
+    color: white; /* Couleur du texte */
+    padding: 5px; /* Espacement intérieur */
+}
+
+/* Style pour les boutons &quot;Précédent&quot; et &quot;Suivant&quot; au survol */
+QCalendarWidget QPushButton:hover {
+    background-color: #43aff7; /* Couleur de fond */
+    border: 1px solid #43aff7; /* Bordure */
+    color: white; /* Couleur du texte */
+}
+
+/* Style pour les boutons &quot;Précédent&quot; et &quot;Suivant&quot; pressés */
+QCalendarWidget QPushButton:pressed {
+    background-color: #43aff7; /* Couleur de fond */
+    border: 1px solid #43aff7; /* Bordure */
+    color: #43aff7; /* Couleur du texte */
+}
+
+/* Style pour le sélecteur de date */
+QCalendarWidget QAbstractItemView:enabled:selected {
+    background-color: #ff69b4; /* Couleur de fond de la date sélectionnée */
+    color: #792382; /* Couleur du texte de la date sélectionnée */
+}</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>40</y>
+     <width>531</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

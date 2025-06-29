@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modif</class>
+ <widget class="QDialog" name="modif">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>341</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}</string>
+      </property>
+      <property name="text">
+       <string>id_event</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="ide">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Nom évènement</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="nomevent">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>entrer le nom </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Lieu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lieu">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>entrer le lieu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Date début</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDateEdit" name="datedeb">
+      <property name="styleSheet">
+       <string notr="true">QDateEdit {
+	
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QDateEdit::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 2px solid #3498db;
+}
+
+QDateEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Date fin</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateEdit" name="datefin">
+      <property name="styleSheet">
+       <string notr="true">QDateEdit {
+	
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QDateEdit::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 2px solid #3498db;
+}
+
+QDateEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Description</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="description">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>décrire l'évènement</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Statut</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">QComboBox {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QComboBox:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    font-size: 18px;
+    color: #792382; /* Couleur du texte */
+    font-weight: bold; /* Gras */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Capacité</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="capacite">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    padding: 5px;
+    border: 2px solid #43aff7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est activé */
+}
+</string>
+      </property>
+      <property name="placeholderText">
+       <string>entrer la capacité</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="modifier">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #43aff7;
+    color: #43aff7;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-image: url(&quot;C:/Users/Kinza/Documents/projet cpp/edit.svg&quot;);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    padding-left: 30px; /* Ajustez ceci selon la taille de votre image */
+}
+
+QPushButton:hover {
+    background-color: #792382;
+    color: #ffff;
+}
+
+QPushButton:pressed {
+    transform: translateY(1px);
+}</string>
+      </property>
+      <property name="text">
+       <string>Modifier</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>-600</y>
+     <width>1701</width>
+     <height>911</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>C:/Users/bechi/Downloads/7492038.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>formLayoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
