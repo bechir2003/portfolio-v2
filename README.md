@@ -1,22 +1,64 @@
-Bechir Meiri – Portfolio
-👋 Welcome! This repository contains real-world projects I’ve built in AI, software development, and automation.
+# Bechir Meiri – Portfolio
 
-📁 Projects
-🔹 MentalHealthSupport
-An AI-powered chatbot built using Python, OpenAI, and Streamlit to provide conversational mental health assistance.
-👉 See Project Folder
+👋 Welcome! This repository contains real-world projects I’ve built in **AI**, **software development**, and **automation**.
 
-🔹 AI-Projects
-A collection of experiments and practical applications using machine learning, deep learning, and AI tools across various domains.
-👉 See Project Folder
+---
 
-🔹 CppUserManagementApp
-A C++ console-based application for managing users, designed with an object-oriented structure and file-based storage system.
-👉 See Project Folder
+## 📁 Projects
 
-🔹 webProjectMVC
-A web application following the MVC (Model-View-Controller) architecture, showcasing dynamic content rendering and form handling.
-👉 See Project Folder
+### 🔹 MentalHealthSupport
+**Description:**  
+AI-powered chatbot for mental health support using `Python`, `gemini`, and `Streamlit`.
 
-💡 About Me
-I’m Bechir Meiri, a passionate software and AI engineer focused on building impactful solutions through intelligent systems and clean code.
+**Features:**
+- Conversational interface
+- Uses gemini's language models
+- Lightweight and deployable via Streamlit
+
+📂 [View Project Folder](./MentalHealthSupport)
+
+---
+
+### 🔹 AI-Projects
+**Description:**  
+A collection of hands-on AI experiments and applications across domains like image recognition, NLP, and more.
+
+**Technologies:** `Python`, `scikit-learn`, `PyTorch`, `OpenCV`, `transformers`
+
+📂 [View Project Folder](./AI-Projects)
+
+---
+
+### 🔹 CppUserManagementApp
+**Description:**  
+A user management system built in `C++` using OOP principles and file-based persistence.
+
+**Highlights:**
+- Add, edit, delete, and search users
+- Command-line interface
+- Structured using classes and modular design
+
+📂 [View Project Folder](./CppUserManagementApp)
+
+---
+
+### 🔹 webProjectMVC
+**Description:**  
+A web development project following the MVC (Model-View-Controller) architecture.
+
+**Tech Stack:** `HTML`, `CSS`, `JavaScript`, `PHP` (or specify if ASP.NET/Django/etc.)
+
+📂 [View Project Folder](./webProjectMVC)
+
+---
+
+## 👤 About Me
+
+I’m **Bechir Meiri**, a passionate software and AI student with a strong focus on:
+- Building real-world, meaningful solutions
+- Clean code and maintainable architecture
+- Continuous learning and improvement
+
+---
+
+📫 _Want to collaborate?_ Feel free to reach out or explore the projects above!
